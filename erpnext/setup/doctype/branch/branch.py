@@ -15,6 +15,7 @@ class Branch(Document):
 		from frappe.types import DF
 
 		branch: DF.Data
+		company: DF.Link
 	# end: auto-generated types
 
 	pass
